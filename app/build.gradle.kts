@@ -28,7 +28,6 @@ android {
         }
 
         getByName("debug") {
-            isDebuggable = true
             applicationIdSuffix = ".debug"
             isMinifyEnabled = true
             isShrinkResources = true
