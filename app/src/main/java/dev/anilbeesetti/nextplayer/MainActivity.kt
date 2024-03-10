@@ -73,6 +73,8 @@ class MainActivity : ComponentActivity() {
             }
         }
 
+        installSplashScreen()
+
         enableEdgeToEdge(
             statusBarStyle = SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT),
             navigationBarStyle = SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT)
